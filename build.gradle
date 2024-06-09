@@ -13,11 +13,6 @@ repositories {
     mavenCentral()
 }
 
-java {
-    sourceCompatibility = '17'
-    targetCompatibility = '17'
-}
-
 ext {
     set('springCloudVersion', "2023.0.1")
 }
