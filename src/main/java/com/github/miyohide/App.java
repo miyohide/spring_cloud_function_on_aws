@@ -12,8 +12,8 @@ public class App {
     SpringApplication.run(App.class, args);
   }
 
-  @Bean
-  public Function<String, String> reverseString() {
-    return value -> new StringBuilder(value).reverse().toString();
-  }
+//  @Bean
+//  public Function<String, String> reverseString() {
+//    return value -> new StringBuilder(value).reverse().toString();
+//  }
 }
